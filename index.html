@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="menu">
+        <img
+          class="menu__logo"
+          src="./assets/logo-alura-azul.svg"
+          alt="Logo da Alura."
+          onclick="resetarPaginaLogo()"
+        />
+        <ion-icon
+          class="menu__icone"
+          name="moon-outline"
+          onclick="modoNoturno()"
+        ></ion-icon>
+      </div>
+      <section class="entrada-dados">
+        <textarea
+          name="texto"
+          class="entrada-dados__caixatexto"
+          placeholder="Digite seu texto aqui"
+          rows="10"
+          cols="33"
+        ></textarea>
+        <div class="entrada-dados__acao">
+          <div class="entrada-dados__acao__aviso">
+            <img
+              class="entrada-dados__acao__aviso__icone"
+              src="./assets/icone-exclamacao-cinza-escuro.svg"
+              alt="Icone de aviso."
+            />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <div class="entrada-dados__acao__botoes">
+            <button
+              class="entrada-dados__acao__botoes__criptografar botao"
+              onclick="codificador()"
+            >
+              Criptografar
+            </button>
+            <button
+              class="entrada-dados__acao__botoes__descriptografar botao"
+              onclick="decodificador()"
+            >
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="saida-dados">
+        <div class="saida-dados__erro" style="display: block">
+          <img
+            class="saida-dados__erro__imagem"
+            src="./assets/imagem-menino-lupa-azul.svg"
+            alt="Menino com uma lupa na mão procurando algo."
+          />
+          <div class="saida-dados__erro__texto">
+            <h2 class="saida-dados__erro__texto__titulo">
+              Nenhuma mensagem encontrada
+            </h2>
+            <p class="saida-dados__erro__texto__alert">
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+        </div>
+        <div class="saida-dados__resultado" style="display: none">
+          <p class="saida-dados__resultado__texto"></p>
+          <button
+            class="saida-dados__resultado__botaocopiar"
+            onclick="copiar()"
+          >
+            Copiar
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p class="rodape__texto">
+        ©Desenvolvido por Rafael Frazatto & Alura - 2024
+      </p>
+    </footer>
+    <script type="text/javascript" src="./js/scrip.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
