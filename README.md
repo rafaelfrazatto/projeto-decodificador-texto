@@ -39,6 +39,7 @@ O resultado deve ser exibido na tela.</br>
 - **Botão Copiar:** Um botão que copie o texto criptografado/descriptografado para a área de transferência, ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos. **(Proposta do desafio)**
 - **Botão Modo Claro/Escuro:** Um botão que troque o tema da página, alternando entre o modo claro e o modo escuro. **(Proposta pessoal)**
 - **Logo Refresh:** Ao clicar no logo (Logo da Alura) é aplicado um refresh na pagina, voltando a pagina em sua forma nativa e limpando todos os campos. **(Proposta pessoal)**
+- **Rodapé com Links:** Colocar links das redes sociais do desenvolvedor. **(Proposta pessoal)**
 
 ## Solução dos Requisitos
 - **Separador:** Função "separador()" feita para transformar uma string em um array de caracteres.
@@ -54,6 +55,7 @@ A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do proj
 - **Botão Copiar:** Função "copiar()" feita com base na documentação oferecida no Trello e adicionada que ao copiar o texto, é exibido um alerta mostrando qual foi o texto copiado.
 - **Botão Modo Claro/Escuro:** A pagina tem como forma nativa o "modo claro", sabendo disso foi feita a função "modoNoturno()" que adiciona a classe "noite" no HTML e altera as imagens da pagina deixando elas tematizadas com o modo aplicado. No CSS foram aplicadas as mudanças de cores, relacionada a classe do HTML, tematizando por completo o modo noturno.
 - **Logo Refresh:** Para realizar essa proposta foi realizada uma busca pela documentação, com isso foi feita uma função chamada "resetarPaginaLogo()", que ao ser clicada a página é recarregada e volta em seu estado nativo e com os campos limpos.
+- **Rodapé com Links:** Foram colocadas tags "<a>" para vincular os links das redes sociais com os icones.
 
 ## Tecnologias
 - HTML
