@@ -33,6 +33,7 @@ O resultado deve ser exibido na tela.</br>
 - Adicione uma cor, gradiente ou imagem como plano de fundo do seu site.
 - Mude estilos, cores e bordas dos botões, explore sua criatividade.
 - Ou você pode replicar exatamente o mesmo design apresentado, tudo ficará a seu critério.
+- Responsividade de telas.
 
 ## Extras
 - **Botão Copiar:** Um botão que copie o texto criptografado/descriptografado para a área de transferência, ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos. **(Proposta do desafio)**
@@ -42,9 +43,19 @@ O resultado deve ser exibido na tela.</br>
 ## Solução dos Requisitos
 - **Separador:** Função "separador()" feita para transformar uma string em um array de caracteres.
 - **Verificação:** Função "verificacao()" feita para que esse processo seja realizado foi utilizada a função "separador" para que seja verificado cada um dos caracteres, se há um caracter minúsculo, com espaço ou com sinais de pontuação, toda a operação segue e é dada como correta. Caso haja algum caracter maiúsculo, com acento ou especial toda a operação será parada (break) e é mostrado um alerta de erro, cancelando todos os passos seguintes.
-- **Codificador:** Função "codificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela aplica a substituição das letras pelas "chaves" propostas, junta os índices do array em uma string e mostra o resultado na caixa de resposta.
-- **Decodificador:** Função "decodificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela reconhece se há um conjunto de índices do array que formem as "chaves", ao reconhe-las ela substitui o conjunto pela letra específica, junta os índices do array em uma string e mostra o resultado na caixa de resposta.
+- **Exibir Resultado na Tela:** Função "exibirResultado(variavel, texto)" feita para que seja exibido o resultado na caixa de resposta.
+- **Codificador:** Função "codificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela aplica a substituição das letras pelas "chaves" propostas, junta os índices do array em uma string e aplica "exibirResultado(variavel, texto)".
+- **Decodificador:** Função "decodificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela reconhece se há um conjunto de índices do array que formem as "chaves", ao reconhe-las ela substitui o conjunto pela letra específica, junta os índices do array em uma string e aplica "exibirResultado(variavel, texto)".
+
+O layout proposto é o que foi utilizado, pensando em uma situação real de trabalho em equipe, onde um time desenvolveu a UI/UX/design do projeto e o outro time desenvolveu a aplicação do mesmo em uma pagina web.</br>
+A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do projeto.</br>
 
 ## Solução dos Extras
+- **Botão Copiar:** Função "copiar()" feita com base na documentação oferecida no Trello e adicionada que ao copiar o texto, é exibido um alerta mostrando qual foi o texto copiado.
+- **Botão Modo Claro/Escuro:** A pagina tem como forma nativa o "modo claro", sabendo disso foi feita a função "modoNoturno()" que adiciona a classe "noite" no HTML e altera as imagens da pagina deixando elas tematizadas com o modo aplicado. No CSS foram aplicadas as mudanças de cores, relacionada a classe do HTML, tematizando por completo o modo noturno.
+- **Logo Refresh:** Para realizar essa proposta foi realizada uma busca pela documentação, com isso foi feita uma função chamada "resetarPaginaLogo()", que ao ser clicada a página é recarregada e volta em seu estado nativo e com os campos limpos.
 
 ## Tecnologias
+- HTML
+- CSS
+- JavaScript
