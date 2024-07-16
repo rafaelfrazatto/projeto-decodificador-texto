@@ -32,6 +32,36 @@ function exibirResultado(variavel, texto) {
 function verificacao() {
   separador(letras);
   for (let i = 0; i < letras.length; i++) {
+    if (letras[i] >= "a" && letras[i] <= "z") {
+      verificacaoFeita = "letras corretas";
+    } else if (
+      letras[i] == '"' ||
+      letras[i] == " " ||
+      letras[i] == "." ||
+      letras[i] == "," ||
+      letras[i] == ";" ||
+      letras[i] == ":" ||
+      letras[i] == "!" ||
+      letras[i] == "?" ||
+      letras[i] == "(" ||
+      letras[i] == ")" ||
+      letras[i] == "-"
+    ) {
+      verificacaoFeita = "letras corretas";
+    } else {
+      verificacaoFeita = "letras erradas";
+      break;
+    }
+  }
+}
+
+/* FUNÇÃO DE VERIFICAÇÃO UTILIZADA ANTERIORMENTE
+Estava funcionando porém os caracteres especiais estavam sendo permitidos.
+Fiz uma nova função de verificação seguindo os princípios utilizados na anterior, porém permitindo apenas os sinais de pontuação.
+
+function verificacao() {
+  separador(letras);
+  for (let i = 0; i < letras.length; i++) {
     if (
       letras[i] == "à" ||
       letras[i] == "á" ||
@@ -79,6 +109,7 @@ function verificacao() {
     }
   }
 }
+*/
 
 function codificador() {
   verificacao();
