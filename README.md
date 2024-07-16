@@ -39,8 +39,11 @@ O resultado deve ser exibido na tela.</br>
 - **Botão Modo Claro/Escuro:** Um botão que troque o tema da página, alternando entre o modo claro e o modo escuro. **(Proposta pessoal)**
 - **Logo Refresh:** Ao clicar no logo (Logo da Alura) é aplicado um refresh na pagina, voltando a pagina em sua forma nativa e limpando todos os campos. **(Proposta pessoal)**
 
-
 ## Solução dos Requisitos
+- **Separador:** Função "separador()" feita para transformar uma string em um array de caracteres.
+- **Verificação:** Função "verificacao()" feita para que esse processo seja realizado foi utilizada a função "separador" para que seja verificado cada um dos caracteres, se há um caracter minúsculo, com espaço ou com sinais de pontuação, toda a operação segue e é dada como correta. Caso haja algum caracter maiúsculo, com acento ou especial toda a operação será parada (break) e é mostrado um alerta de erro, cancelando todos os passos seguintes.
+- **Codificador:** Função "codificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela aplica a substituição das letras pelas "chaves" propostas, junta os índices do array em uma string e mostra o resultado na caixa de resposta.
+- **Decodificador:** Função "decodificador()" que aplica "separador()", verifica o array com "verificacao()", e após receber a verificação como correta ela reconhece se há um conjunto de índices do array que formem as "chaves", ao reconhe-las ela substitui o conjunto pela letra específica, junta os índices do array em uma string e mostra o resultado na caixa de resposta.
 
 ## Solução dos Extras
 
