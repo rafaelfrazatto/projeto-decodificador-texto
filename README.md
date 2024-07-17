@@ -84,8 +84,9 @@ As mudanças no layout proposto foram simples, como a aplicação de hover para 
   <img src="./assets/imagens para o readme/Decodificador - Desktop - proposta inicial.svg" alt="Layout do projeto proposto." width=300px style="margin-right: 25px; margin-left: 25px;">
 <br>
 <div>
-  <img src="./assets/imagens para o readme/modo claro/Decodificador - 1 Desktop.svg" alt="Layout do projeto alterado no modo claro." width=300px style="margin-right: 25px; margin-left: 25px;">
-  <img src="./assets/imagens para o readme/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto alterado no modo escuro." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/Decodificador - Desktop - proposta inicial.svg" alt="Layout do projeto proposto." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 1 Desktop.svg" alt="Layout do projeto alterado no modo claro." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto alterado no modo escuro." width=300px style="margin-right: 25px; margin-left: 25px;">
 </div>
 <br>
 <div>
