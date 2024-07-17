@@ -47,13 +47,13 @@ O resultado deve ser exibido na tela.</br>
   <img src="./assets/imagens do projeto/modo escuro/Decodificador - 4 Celular.svg" alt="Layout do projeto celular no modo escuro." width=50px style="margin-right: 25px; margin-left: 25px;">
 </div>
 
-#### Layout:
+#### Layout proposto:
 
 - Alterar a fonte, tamanho e cor do título.
 - Adicione uma cor, gradiente ou imagem como plano de fundo do seu site.
-- Mude estilos, cores e bordas dos botões, explore sua criatividade.
-- Ou você pode replicar exatamente o mesmo design apresentado, tudo ficará a seu critério.
-- Responsividade de telas.
+- Mudar estilos, cores e bordas dos botões, explorar a criatividade.
+- Ou pode replicar exatamente o mesmo design apresentado, tudo ficará a seu critério.
+- Necessário ter responsividade de telas.
 
 <div>
   <img src="./assets/imagens do projeto/modo claro/Decodificador - 1 Tablet.svg" alt="Layout do projeto tablet no modo claro." width=200px style="margin-right: 25px; margin-left: 25px;">
@@ -79,6 +79,18 @@ O resultado deve ser exibido na tela.</br>
 
 O layout proposto é o que foi utilizado, pensando em uma situação real de trabalho em equipe, onde um time desenvolveu a UI/UX/design do projeto e o outro time desenvolveu a aplicação do mesmo em uma pagina web.</br>
 A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do projeto.</br>
+As mudanças no layout proposto foram simples, como a aplicação de hover para os botões, inclusão de rodapé, a inclusão do botão modo claro/escuro e o modo escuro.</br>
+
+<div>
+  <img src="./assets/imagens do projeto/Decodificador - Desktop - proposta inicial.svg" alt="Layout do projeto proposto." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 1 Desktop.svg" alt="Layout do projeto alterado no modo claro." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto alterado no modo escuro." width=300px style="margin-right: 25px; margin-left: 25px;">
+</div>
+<br>
+<div>
+  <img src="./assets/imagens do projeto/modo claro/Hover Modo Claro.svg" alt="Layout do hover no modo claro." width=500px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Hover Modo Escuro.svg" alt="Layout do hover no modo escuro." width=500px style="margin-right: 25px; margin-left: 25px;">
+</div>
 
 ## Solução dos Extras
 
@@ -86,6 +98,18 @@ A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do proj
 - **Botão Modo Claro/Escuro:** A pagina tem como forma nativa o "modo claro", sabendo disso foi feita a função "modoNoturno()" que adiciona a classe "noite" no HTML e altera as imagens da pagina deixando elas tematizadas com o modo aplicado. No CSS foram aplicadas as mudanças de cores, relacionada a classe do HTML, tematizando por completo o modo noturno.
 - **Logo Refresh:** Para realizar essa proposta foi realizada uma busca pela documentação, com isso foi feita uma função chamada "resetarPaginaLogo()", que ao ser clicada a página é recarregada e volta em seu estado nativo e com os campos limpos.
 - **Rodapé com Links:** Foram colocadas tags para vincular os links das redes sociais com os icones.
+
+## Instalação
+
+1. Clone o repositório: `git clone https://github.com/rafaelfrazatto/projeto-decodificador-texto.git`
+2. Abra o diretório do projeto: `cd projeto-decodificador-texto`
+3. Abra o arquivo `index.html` no seu navegador web.
+
+## Acesso ao projeto
+
+O acesso também pode ser feito pelo link abaixo:
+
+- https://projeto-decodificador-texto.vercel.app/
 
 ## Tecnologias
 
