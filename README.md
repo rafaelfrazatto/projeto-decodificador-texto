@@ -1,5 +1,10 @@
 # Projeto: Codificador e Decodificador de Texto
 
+<div>
+  <img src="./assets/imagens%20do%20projeto/modo%20claro/Decodificador%20-%201%20Desktop.svg" alt="Layout do projeto desktop no modo claro." width=400px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto desktop no modo escuro." width=400px style="margin-right: 25px; margin-left: 25px;">
+</div>
+
 ## Sobre
 
 O **Challenge Decodificador de Texto** foi proposto na trilha **"Iniciante em Programação T7 - ONE (Oracle Next Education)"** desenvolvido pela **Alura** em parceria com a **Oracle**.</br>
@@ -33,6 +38,15 @@ Não devem ser utilizados letras com acentos, nem caracteres especiais.</br>
 A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.</br>
 O resultado deve ser exibido na tela.</br>
 
+<div>
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 2 Desktop.svg" alt="Layout do projeto desktop no modo claro." width=200px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 4 Desktop.svg" alt="Layout do projeto desktop no modo escuro." width=200px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 2 Tablet.svg" alt="Layout do projeto tablet no modo claro." width=100px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 4 Tablet.svg" alt="Layout do projeto tablet no modo escuro." width=100px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 2 Celular.svg" alt="Layout do projeto celular no modo claro." width=50px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 4 Celular.svg" alt="Layout do projeto celular no modo escuro." width=50px style="margin-right: 25px; margin-left: 25px;">
+</div>
+
 #### Layout:
 
 - Alterar a fonte, tamanho e cor do título.
@@ -40,6 +54,13 @@ O resultado deve ser exibido na tela.</br>
 - Mude estilos, cores e bordas dos botões, explore sua criatividade.
 - Ou você pode replicar exatamente o mesmo design apresentado, tudo ficará a seu critério.
 - Responsividade de telas.
+
+<div>
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 1 Tablet.svg" alt="Layout do projeto tablet no modo claro." width=200px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 3 Tablet.svg" alt="Layout do projeto tablet no modo escuro." width=200px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo claro/Decodificador - 1 Celular.svg" alt="Layout do projeto celular no modo claro." width=100px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens do projeto/modo escuro/Decodificador - 3 Celular.svg" alt="Layout do projeto celular no modo escuro." width=100px style="margin-right: 25px; margin-left: 25px;">
+</div>
 
 ## Extras
 
@@ -64,7 +85,7 @@ A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do proj
 - **Botão Copiar:** Função "copiar()" feita com base na documentação oferecida no Trello e adicionada que ao copiar o texto, é exibido um alerta mostrando qual foi o texto copiado.
 - **Botão Modo Claro/Escuro:** A pagina tem como forma nativa o "modo claro", sabendo disso foi feita a função "modoNoturno()" que adiciona a classe "noite" no HTML e altera as imagens da pagina deixando elas tematizadas com o modo aplicado. No CSS foram aplicadas as mudanças de cores, relacionada a classe do HTML, tematizando por completo o modo noturno.
 - **Logo Refresh:** Para realizar essa proposta foi realizada uma busca pela documentação, com isso foi feita uma função chamada "resetarPaginaLogo()", que ao ser clicada a página é recarregada e volta em seu estado nativo e com os campos limpos.
-- **Rodapé com Links:** Foram colocadas tags "<a>" para vincular os links das redes sociais com os icones.
+- **Rodapé com Links:** Foram colocadas tags para vincular os links das redes sociais com os icones.
 
 ## Tecnologias
 
