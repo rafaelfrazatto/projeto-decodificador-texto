@@ -81,17 +81,19 @@ O layout proposto é o que foi utilizado, pensando em uma situação real de tra
 A responsividade foi aplicada seguindo os padrões oferecidos pelo Figma do projeto.</br>
 As mudanças no layout proposto foram simples, como a aplicação de hover para os botões, inclusão de rodapé, a inclusão do botão modo claro/escuro e o modo escuro.</br>
 
-  <img src="./assets/imagens para o readme/Decodificador - Desktop - proposta inicial.svg" alt="Layout do projeto proposto." width=300px style="margin-right: 25px; margin-left: 25px;">
-<br>
 <div>
   <img src="./assets/imagens para o readme/Decodificador - Desktop - proposta inicial.svg" alt="Layout do projeto proposto." width=300px style="margin-right: 25px; margin-left: 25px;">
-  <img src="./assets/imagens para o readme/modo claro/Decodificador - 1 Desktop.svg" alt="Layout do projeto alterado no modo claro." width=300px style="margin-right: 25px; margin-left: 25px;">
-  <img src="./assets/imagens para o readme/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto alterado no modo escuro." width=300px style="margin-right: 25px; margin-left: 25px;">
 </div>
 <br>
 <div>
-  <img src="./assets/imagens para o readme/modo claro/Hover Modo Claro.svg" alt="Layout do hover no modo claro." width=500px style="margin-right: 25px; margin-left: 25px;">
-  <img src="./assets/imagens para o readme/modo escuro/Hover Modo Escuro.svg" alt="Layout do hover no modo escuro." width=500px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens para o readme/modo claro/Decodificador - 1 Desktop.svg" alt="Layout do projeto alterado no modo claro." width=300px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens para o readme/modo escuro/Decodificador - 3 Desktop.svg" alt="Layout do projeto alterado no modo escuro." width=300px style="margin-right: 25px; margin-left: 25px;">
+</div>
+
+<br>
+<div>
+  <img src="./assets/imagens para o readme/modo claro/Hover Modo Claro.svg" alt="Layout do hover no modo claro." width=400px style="margin-right: 25px; margin-left: 25px;">
+  <img src="./assets/imagens para o readme/modo escuro/Hover Modo Escuro.svg" alt="Layout do hover no modo escuro." width=400px style="margin-right: 25px; margin-left: 25px;">
 </div>
 
 ## Solução dos Extras
